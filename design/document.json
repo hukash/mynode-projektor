@@ -1,0 +1,35 @@
+{
+  "creator" : null,
+  "client": null,
+  "created_at": null,
+  "changed_at": null,
+  "due_date": null,
+  "type": "issue/milestone"
+  "priority": {
+    "critical" : 1,
+    "high" : 2,
+    "medium" : 3,
+    "low" : 4,
+  },
+  "description": null,
+  "responsible": null,
+  "assistance": null,
+  "comment": null,
+  "approval": {
+    "private_for_creator" : 0,
+    "intern" : 1,
+    "public" : 2
+  },
+  "condition": {
+    "deleted": 0,
+    "active": 1,
+    "postponed": 2,
+    "invalid": 3
+  }
+  "_attachments": {
+    "attachment": {
+      "content_type": "application/pdf"
+    }
+  }
+}
+
