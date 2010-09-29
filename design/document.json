@@ -1,35 +1,40 @@
+// Datastructure for issue entries
 {
-  "creator" : null,
-  "client": null,
-  "created_at": null,
-  "changed_at": null,
-  "due_date": null,
-  "type": "issue/milestone"
-  "priority": {
-    "critical" : 1,
-    "high" : 2,
-    "medium" : 3,
-    "low" : 4,
-  },
-  "description": null,
-  "responsible": null,
-  "assistance": null,
-  "comment": null,
-  "approval": {
-    "private_for_creator" : 0,
-    "intern" : 1,
-    "public" : 2
-  },
-  "condition": {
-    "deleted": 0,
-    "active": 1,
-    "postponed": 2,
-    "invalid": 3
-  }
-  "_attachments": {
-    "attachment": {
-      "content_type": "application/pdf"
-    }
-  }
+   "_id": "584ac3851bb39a6f4c7bda2bf400220d",
+   "_rev": "2-3940c3acc61a6e5759a4a216176bae50",
+   "creator": null,
+   "client": null,
+   "created_at": null,
+   "changed_at": null,
+   "due_date": null,
+   "milestone": null,
+   "priority": {
+       "critical": 1,
+       "high": 2,
+       "medium": 3,
+       "low": 4
+   },
+   "description": null,
+   "responsible": null,
+   "assistance": null,
+   "comment": null,
+   "approval": {
+       "private_for_creator": 0,
+       "intern": 1,
+       "public": 2
+   },
+   "condition": {
+       "deleted": 0,
+       "active": 1,
+       "postponed": 2,
+       "invalid": 3
+   },
+   "attachments": {
+       "attachment_1": {
+           "content_type": "application/pdf"
+       },
+       "attachment_2": {
+           "content_type": "application/pdf"
+       }
+   }
 }
-
