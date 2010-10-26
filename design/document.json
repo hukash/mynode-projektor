@@ -18,6 +18,7 @@
    "responsible": null,
    "assistance": null,
    "comment": null,
+   "keywords": null,
    "approval": {
        "private_for_creator": 0,
        "intern": 1,
